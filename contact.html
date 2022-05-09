@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Freshly</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti&family=Merienda&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2afe127009.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="ressources/images/logo.png" alt="logo"></a>
+                <h1><i class="fa-solid fa-star"></i>FRESHLY RESTAURANT<i class="fa-solid fa-star"></i></h1>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li class="last"><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section>
+            <h2><i class="fa-solid fa-star"></i>Contact us<i class="fa-solid fa-star"></i></h2>
+            <p>If your want to make a reservation, please complete this form.</p>
+            <p>Fields with * are required.</p>
+            <form>
+                <div class="lex">
+                <div class="col">
+                    <h3>Reservation</h3>
+                    <label>Date  </label>
+                    <input type="date" name="date"  required="required">   
+                    <label>Time</label>
+                    <input type=time name"time"  required="required">
+                    <label>Number of guests</label>
+                    <input type=number min=0 max=99999 step=1 name="number"  required="required">
+                </div>
+                <div class="col">
+                    <h3>Details</h3>
+                    <label>Name</label>
+                    <input type=text  required="required">
+                    <label>Email</label>
+                    <input type=email name="email">
+                    <label>Telephone</label>
+                    <input type=tel name="tel"  required="required">
+                    
+                </div>
+                </div>
+                <div>
+                    <h2>Further request</h2>
+                    <textarea></textarea>
+                </div>
+                <input type=submit>
+            </form>
+        </section>
+        <section>
+            <h3>Our location</h3>
+            <div class="map">
+                <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-74.00268316268922%2C40.73317755885807%2C-73.99914264678956%2C40.73495390658422&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/40.73407/-74.00091"></a></small>
+            </div>
+            
+        </section>
+        
+    </main>
+    <footer>
+        <div class="foot1">
+            <div class="heure">
+                <h4>Opening hours</h4>
+                <div>
+                    <p>Monday: Closed</p>
+                    <p>Tue-wed: 9am - 10pm</p>
+                    <p>sat-sun: 5pm - 10pm</p>
+                </div>
+            </div>
+            <div class="contact">
+                <h4>Contact</h4>
+                <div>
+                    <p>13 Christopher Street<br>New York,<br>NY 10014-3543</p>
+                    <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                </div>
+            </div>
+            <div class="social">
+                <h4>Social network</h4>
+                <div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

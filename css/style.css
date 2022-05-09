@@ -1,0 +1,396 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ahiti', sans-serif;
+    font-size: 1.125em;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merienda', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2  {
+    font-size: 1.563em;
+}
+
+
+h4, h3 {
+    font-size: 1.25em;
+}
+.sec3 li {
+    font-size: 0.938em;
+    display: flex;
+    align-items: center;
+}
+.foot1 h4 {
+    font-size: 1.125em;
+}
+.foot1{
+    font-size: 1em;
+}
+
+button.slick-next.slick-arrow {
+    position: absolute;
+    right: -20px;
+}
+button.slick-prev.slick-arrow {
+    position: absolute;
+    left: 20px;
+}
+.fa-star {
+    font-size: 0.5em;
+    color: #950000;
+}
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.logo {
+    text-align: center;
+}
+header h1 {
+    font-size: 1.875em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header img {
+    width: 140px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px 10px 20px;
+}
+
+header li {
+    background-color: #ebe3db;
+    width: 100%;
+    border-top: 2px solid #4c4343;
+    padding: 10px 0 10px 0;
+    text-align: center;
+
+}
+.last {
+    border-bottom: 2px solid #4c4343;
+}
+
+header li:hover {
+    background-color: #4c4343;
+    color: white;
+}
+header a:hover {
+    color:white;
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.sec2, .sec3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+main img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.meat, .fish, .vege {
+     /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    text-align: center;
+    background-color: #ebe3db;
+    margin-bottom: 20px;
+}
+
+.meat ul, .fish ul, .vege ul {
+    text-align: start;
+}
+
+.meat li, .fish li, .vege li {
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+.meat a, .fish a, .vege a  {
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    color:white;
+    text-decoration: none;
+    background-color: #4c4343;
+    width: 90%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fa-utensils{
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+.foot1 {
+    background-image: url(../ressources/images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.absolute {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+}
+.abso {
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.abso:hover {
+    opacity: 1;
+}
+
+
+.foot1 p, .foot1 a , .foot1 h4, .foot1 i {
+    color: white;
+}
+.foot1 i {
+    margin: 8px;
+}
+.foot1 h4 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom : 1px dashed white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*menus*/
+
+.main {
+    text-align: center;
+}
+
+.main button {
+    background-color: #ebe3db;
+    padding: 5px 19px;
+    border: none;
+    margin: 10px 2px 30px 2px;
+}
+
+.main button:hover {
+    background-color: #950000;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebe3db;
+}
+
+.container div {
+    width: 45%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ebe3db;
+}
+
+.flex div {
+    width: 45%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scale:hover {
+    tranform:
+}
+
+/*about*/
+
+.ab1 p, .abo1 p {
+    text-align: start;
+}
+.bg {
+    background: #ebe3db;
+    padding: 20px 10px 20px 10px;
+}
+
+.map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.lex {
+    display: flex;
+}
+.col {
+    margin-right: auto;
+    margin-left: auto;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    background-color: #ebe3db;
+}
+textarea {
+    height: 130px;
+    width: 80%;
+}
+input[type="submit"] {
+    background-color: #4c4343;
+    color: white;
+    padding: 5px 70px;
+    margin: 25px;
+    border-radius: 8px;
+    border: none;
+}
+label {
+    text-align: start;
+    margin: 10px;
+}
+   
+
+@media (min-width: 780px) {
+	header ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebe3db;
+   }
+   header li {
+       border-top: 0px;
+   }
+   .last {
+       border-bottom: 0px;
+   }
+   header a:hover {
+    background-color: #4c4343;
+   }
+   header li:hover {
+     background-color: #ebe3db;
+   }
+   
+   .foot1 {
+           display: flex;
+          justify-content: space-around;
+          padding-bottom: 50px;
+          padding-top: 10px;
+   }
+   
+   
+   
+   /*MENUS */
+   
+   .container div, .flex div {
+           width: 30%;
+   }
+   
+   /*about*/
+   
+   .aimg {
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .bg {
+       display: flex;
+    flex-wrap: wrap;
+   }
+
+
+}
+
+
+@media (min-width: 980px) {
+    header, main {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+	.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo {
+    display: flex;
+    align-items: center;
+    }
+    header li {
+    margin: 20px;
+    }
+    header ul {
+        background-color: white;
+    }
+    .p1 {
+        flex-direction: row;
+    }
+    .bp {
+    width: 70%;
+   }
+   .bimg {
+    width: 30%;
+   }
+   .meat, .fish, .vege {
+    width: 31%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .m1 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    
+    form {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
